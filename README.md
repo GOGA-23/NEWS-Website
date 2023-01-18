@@ -1,29 +1,20 @@
 # NEWS-Website
+NEWS-Website-NodeJs-ExpressJs
 
-Notes-NodeJs-CRUD-MongoDB
+# You-need:
+NEWS-API
+ExpressJS
 
-#You need:
+# Create .env file
+Create a .env file to get API key. Example below:
+API_KEY = "KEY"
 
-Database (MongoDB)
-Google Console Account to create the API Auth Key's
-
-#Create .env file
-
-Create a .env file to store your credentials. Example below:
-
-MONGODB_URI = mongodb+srv://<username>:<password>@mongodburlhere
-GOOGLE_CLIENT_ID= YOUR_GOOGLE_ID_HERE
-GOOGLE_CLIENT_SECRET= YOUR_GOOGLE_CLIENT_SECRET_HERE
-
-GOOGLE_CALLBACK_URL= URL
-
-
-#Installation
-
+# Installation
 To install and run this project - install dependencies using npm and then start your server:
 
 $ npm install
 $ npm start
 
-  Deploy Website Link here: https://news-website-xtcr.onrender.com/
+# Deployed Website Link here: 
+  https://news-website-xtcr.onrender.com/
   
