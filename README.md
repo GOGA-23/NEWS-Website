@@ -24,3 +24,6 @@ To install and run this project - install dependencies using npm and then start 
 
 $ npm install
 $ npm start
+
+  Deploy Website Link here: https://news-website-xtcr.onrender.com/
+  
