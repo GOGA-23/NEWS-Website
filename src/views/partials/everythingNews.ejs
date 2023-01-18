@@ -1,0 +1,24 @@
+<!-- Passing the everythingNews file to views files -->
+<% if(articles != null) {%> <% articles.forEach(function(article,index){%>
+<div class="card-box">
+  <% if(article.urlToImage != null) { %>
+  <img src="<%-article.urlToImage%>" class="card-image" alt="Image" />
+  <% } else { %>
+  <img src="images/Image_not_available.png" class="card-image" alt="Image" />
+  <% } %>
+  <div class="card-content">
+    <h5 class="title"><%-article.title%></h5>
+    <p class="description"><%-article.description %></p>
+    <a
+      href="<%-article.url%>"
+      type="button"
+      class="btn btn-outline-primary mx-2"
+      >Explore</a
+    >
+  </div>
+</div>
+<%})%> <%} else {%>
+<div>
+  <p>No Post Found</p>
+</div>
+<% } %>

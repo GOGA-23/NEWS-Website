@@ -1,0 +1,9 @@
+{
+  "cSpell.words": ["Gokul", "newsapi", "Templating"],
+  "files.associations": {
+    "\"*.ejs\"": ""
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  }
+}
